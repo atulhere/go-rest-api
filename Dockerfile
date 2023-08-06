@@ -7,5 +7,8 @@ ADD  . /app
 WORKDIR  /app
 RUN go build -o main .
 
+# Expose the port on which the application will listen
+EXPOSE 80
+
 # Default commands 
 CMD ["/app/main"]

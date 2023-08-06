@@ -14,7 +14,7 @@ func main() {
 
 	})
 
-	log.Println("Server is running in Port 8081")
-	log.Println(http.ListenAndServe(":8081", nil))
+	log.Println("Server is running on the Port 80")
+	log.Println(http.ListenAndServe(":80", nil))
 
 }
